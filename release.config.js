@@ -4,14 +4,32 @@ const config = {
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
-      "@semantic-release/git",
+      "@semantic-release/changelog",
       {
-        assets: ["dist/*.js", "dist/*.js.map"],
-        message:
-          "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+        changelogFile: "CHANGELOG.md",
+        changelogTitle: "# Changelog\n\n",
       },
     ],
-    "@semantic-release/github",
+    [
+      "@semantic-release/exec",
+      {
+        prepareCmd: "echo 'Release prepared'",
+      },
+    ],
+    [
+      "@semantic-release/git",
+      {
+        assets: ["dist/*.js", "dist/*.js.map", "CHANGELOG.md"],
+        message: "chore(release): ${nextRelease.version} [skip ci]",
+      },
+    ],
+    [
+      "@semantic-release/github",
+      {
+        successComment: false,
+        failComment: false,
+      },
+    ],
   ],
 };
 
