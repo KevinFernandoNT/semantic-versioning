@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Welcome To API ${port}`);
+  console.log(`Sever is running on port${port}`);
 });
