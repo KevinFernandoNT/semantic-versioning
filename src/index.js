@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Hello from The API ${port}`);
+  console.log(`API is running on port ${port}`);
 });
