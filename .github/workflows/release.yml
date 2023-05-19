@@ -2,6 +2,7 @@ name: Release new vertion
 
 on:
   workflow_dispatch:
+    branches: main
 
 jobs:
   release:
