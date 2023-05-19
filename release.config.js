@@ -20,7 +20,7 @@ const config = {
       "@semantic-release/git",
       {
         assets: ["dist/*.js", "dist/*.js.map", "CHANGELOG.md"],
-        message: "feat(release): ${nextRelease.version} [skip ci]",
+        message: "chore(release): ${nextRelease.version} [skip ci]",
       },
     ],
     [
