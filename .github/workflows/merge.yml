@@ -15,8 +15,9 @@ jobs:
 
       - name: Merge branches
         run: |
-          git config user.name "KevinFernandoNT"
-          git config user.email "kevin@nuclei.tech"
+          git config --global user.name "KevinFernandoNT"
+          git config --global user.email "kevin@nuclei.tech"
+          git config pull.rebase false
           git fetch
           git checkout stage
           git pull origin main --allow-unrelated-histories
