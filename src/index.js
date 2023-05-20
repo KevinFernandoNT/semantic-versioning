@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Seve is  on ${port}`);
+  console.log(`Hello API ${port}`);
 });
