@@ -2,6 +2,13 @@
 
 
 
+# [2.12.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.11.0...v2.12.0) (2023-05-20)
+
+
+### Features
+
+* CHnages ([e6e1bc1](https://github.com/KevinFernandoNT/semantic-versioning/commit/e6e1bc1d04a6e22727010ab25388cbe03f29d940))
+
 # [2.11.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.10.0...v2.11.0) (2023-05-20)
 
 
