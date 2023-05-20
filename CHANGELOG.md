@@ -2,6 +2,13 @@
 
 
 
+# [2.8.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.7.0...v2.8.0) (2023-05-20)
+
+
+### Features
+
+* Allow histories ([6548bfd](https://github.com/KevinFernandoNT/semantic-versioning/commit/6548bfdf8334c4f1c05de9907ed7beb7bff08454))
+
 # [2.7.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.6.0...v2.7.0) (2023-05-20)
 
 
