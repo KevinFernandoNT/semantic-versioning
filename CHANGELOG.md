@@ -2,6 +2,13 @@
 
 
 
+# [2.5.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.4.0...v2.5.0) (2023-05-20)
+
+
+### Features
+
+* Change port ([996198d](https://github.com/KevinFernandoNT/semantic-versioning/commit/996198daf96ba7d66a681e2cdc3ae81f8ba6362d))
+
 # [2.4.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.3.0...v2.4.0) (2023-05-20)
 
 
