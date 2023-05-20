@@ -2,6 +2,34 @@
 
 
 
+# [2.7.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.6.0...v2.7.0) (2023-05-20)
+
+
+### Features
+
+* Changed the merge workflow ([33755ca](https://github.com/KevinFernandoNT/semantic-versioning/commit/33755caa4cf9f5c21667efbba6c95f6009778375))
+
+# [2.6.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.5.0...v2.6.0) (2023-05-20)
+
+
+### Features
+
+* Change merge file ([bc58801](https://github.com/KevinFernandoNT/semantic-versioning/commit/bc58801f92780e1f389e6ed3a16184487d797c60))
+
+# [2.5.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.4.0...v2.5.0) (2023-05-20)
+
+
+### Features
+
+* Change port ([996198d](https://github.com/KevinFernandoNT/semantic-versioning/commit/996198daf96ba7d66a681e2cdc3ae81f8ba6362d))
+
+# [2.4.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.3.0...v2.4.0) (2023-05-20)
+
+
+### Features
+
+* Changes in the src file ([d4d3e9f](https://github.com/KevinFernandoNT/semantic-versioning/commit/d4d3e9f4c733137f751fb145ec2e484c9ae1351a))
+
 # [2.3.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.2.0...v2.3.0) (2023-05-20)
 
 
