@@ -3,13 +3,7 @@ const config = {
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    [
-      "@semantic-release/changelog",
-      {
-        changelogFile: "CHANGELOG.md",
-        changelogTitle: "# Changelog\n\n",
-      },
-    ],
+
     [
       "@semantic-release/exec",
       {
