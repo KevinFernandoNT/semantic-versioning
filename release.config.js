@@ -3,12 +3,11 @@ const config = {
   plugins: [
     "@semantic-release/commit-analyzer",
     {
-      preset: "angular",
       releaseRules: [
         { type: "fix", release: "minor" },
         { type: "refactor", release: "minor" },
         { type: "refactor", release: "patch" },
-        { scope: "no-release", release: true },
+        { scope: "no-release", release: false },
       ],
     },
     "@semantic-release/release-notes-generator",
