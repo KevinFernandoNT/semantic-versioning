@@ -2,6 +2,13 @@
 
 
 
+# [2.3.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.2.0...v2.3.0) (2023-05-20)
+
+
+### Features
+
+* Changes the messgae ([94003dd](https://github.com/KevinFernandoNT/semantic-versioning/commit/94003ddf5db4bd111de9ba59a2c9da11c66b7c88))
+
 # [2.1.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.0.1...v2.1.0) (2023-05-20)
 
 
