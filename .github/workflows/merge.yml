@@ -20,4 +20,4 @@ jobs:
           git fetch
           git checkout stage
           git merge main --no-ff --no-edit
-          git push origin stage
+          git push origin/stage
