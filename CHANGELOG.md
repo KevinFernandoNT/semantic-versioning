@@ -2,6 +2,13 @@
 
 
 
+# [2.4.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.3.0...v2.4.0) (2023-05-20)
+
+
+### Features
+
+* Changes in the src file ([d4d3e9f](https://github.com/KevinFernandoNT/semantic-versioning/commit/d4d3e9f4c733137f751fb145ec2e484c9ae1351a))
+
 # [2.3.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.2.0...v2.3.0) (2023-05-20)
 
 
