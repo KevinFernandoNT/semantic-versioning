@@ -2,6 +2,13 @@
 
 
 
+# [2.7.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.6.0...v2.7.0) (2023-05-20)
+
+
+### Features
+
+* Changed the merge workflow ([33755ca](https://github.com/KevinFernandoNT/semantic-versioning/commit/33755caa4cf9f5c21667efbba6c95f6009778375))
+
 # [2.6.0](https://github.com/KevinFernandoNT/semantic-versioning/compare/v2.5.0...v2.6.0) (2023-05-20)
 
 
