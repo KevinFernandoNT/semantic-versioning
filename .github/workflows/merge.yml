@@ -1,0 +1,22 @@
+name: Merge Main to Stage
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Merge branches
+        run: |
+          git config user.name "KevinFernandoNT"
+          git config user.email "kevin@nuclei.tech"
+          git checkout stage
+          git merge main --no-ff --no-edit
+          git push origin stage
