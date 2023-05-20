@@ -2,6 +2,15 @@ const config = {
   branches: ["main"],
   plugins: [
     "@semantic-release/commit-analyzer",
+    {
+      preset: "angular",
+      releaseRules: [
+        { type: "fix", release: "minor" },
+        { type: "refactor", release: "minor" },
+        { type: "refactor", release: "patch" },
+        { scope: "no-release", release: true },
+      ],
+    },
     "@semantic-release/release-notes-generator",
     [
       "@semantic-release/changelog",
@@ -23,6 +32,7 @@ const config = {
         message: "chore(release): ${nextRelease.version} [skip ci]",
       },
     ],
+    "@semantic-release/github",
     [
       {
         successComment: false,
