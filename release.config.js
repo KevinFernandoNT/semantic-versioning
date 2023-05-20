@@ -3,6 +3,7 @@ const config = {
   plugins: [
     "@semantic-release/commit-analyzer",
     {
+      preset: "angular",
       releaseRules: [
         { type: "feat", release: "minor" },
         { type: "refactor", scope: "core-*", release: "minor" },
@@ -26,13 +27,13 @@ const config = {
         prepareCmd: "echo 'Release prepared'",
       },
     ],
-    [
-      "@semantic-release/git",
-      {
-        assets: ["dist/*.js", "dist/*.js.map", "CHANGELOG.md"],
-        message: "chore(release): ${nextRelease.version} [skip ci]",
-      },
-    ],
+    // [
+    //   "@semantic-release/git",
+    //   {
+    //     assets: ["dist/*.js", "dist/*.js.map", "CHANGELOG.md"],
+    //     message: "chore(release): ${nextRelease.version} [skip ci]",
+    //   },
+    // ],
 
     [
       "@semantic-release/github",
