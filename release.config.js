@@ -5,6 +5,7 @@ const config = {
     {
       releaseRules: [
         { type: "fix", release: "minor" },
+        { type: "feat", release: "minor" },
         { type: "refactor", release: "minor" },
         { type: "refactor", release: "patch" },
         { scope: "no-release", release: false },
