@@ -19,5 +19,5 @@ jobs:
           git config user.email "kevin@nuclei.tech"
           git fetch
           git checkout stage
-          git merge main --no-ff --no-edit
+          git merge origin/main --no-ff --no-edit
           git push origin/stage
