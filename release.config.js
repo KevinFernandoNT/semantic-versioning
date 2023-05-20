@@ -24,7 +24,6 @@ const config = {
       },
     ],
     [
-      "@semantic-release/github",
       {
         successComment: false,
         failComment: false,
