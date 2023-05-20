@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`API  is port ${port}`);
+  console.log(`API  sdnk port ${port}`);
 });
