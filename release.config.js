@@ -12,19 +12,19 @@ const config = {
       parserOpts: {},
     },
     "@semantic-release/release-notes-generator",
-    [
-      "@semantic-release/changelog",
-      {
-        changelogFile: "CHANGELOG.md",
-        changelogTitle: "# Changelog\n\n",
-      },
-    ],
-    [
-      "@semantic-release/exec",
-      {
-        prepareCmd: "echo 'Release prepared'",
-      },
-    ],
+    // [
+    //   "@semantic-release/changelog",
+    //   {
+    //     changelogFile: "CHANGELOG.md",
+    //     changelogTitle: "# Changelog\n\n",
+    //   },
+    // ],
+    // [
+    //   "@semantic-release/exec",
+    //   {
+    //     prepareCmd: "echo 'Release prepared'",
+    //   },
+    // ],
     // [
     //   "@semantic-release/git",
     //   {
