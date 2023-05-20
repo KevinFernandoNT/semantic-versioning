@@ -8,4 +8,5 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Hello API ${port}`);
+  console.log("Hell");
 });
