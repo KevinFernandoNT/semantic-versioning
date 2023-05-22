@@ -19,6 +19,6 @@ jobs:
         run: cd api && npm install && npm run build
       - name: Build Web
         run: cd web && npm install && npm run build
-      - run: npx semantic-release --config ./web/release.config.js
+      - run: semantic-release --config ./web/release.config.js
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
