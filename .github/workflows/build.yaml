@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: 18
       - name: Build API
-        if: ${{ github.event_name == 'release' || startsWith(github.event.head_commit.message, 'hotfix')}}
+        if: ${{ github.event_name == 'release' || startsWith(github.event.head_commit.message, 'hotfix:')}}
         run: cd api && npm install && npm run build
