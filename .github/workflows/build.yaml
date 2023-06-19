@@ -6,7 +6,7 @@ on:
       - published
   push:
     branches:
-      - ["main", "sub"]
+      - ["main" "sub"]
 
 jobs:
   release:
